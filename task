@@ -1,0 +1,591 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNQoTFRGh/x0x9miOZYREBY",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/mostafayasser1234/form/blob/main/task\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=5\n",
+        "x=float(x)\n",
+        "print(x)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Q9O131M5K1SX",
+        "outputId": "28d2694c-ecb9-40f9-ed79-143669bc5b8d"
+      },
+      "execution_count": 102,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "5.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=5.5\n",
+        "x=int(x)\n",
+        "print(x)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4qUYc_sBK7bb",
+        "outputId": "a87bf5dd-aced-4068-cccd-14afeb4766fd"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=\"hello world\"\n",
+        "print(len(\"hello world\"))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "pqu8vu-uLHd7",
+        "outputId": "9921b854-0a59-4f55-9d7e-07260f0d6304"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "11\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "txt = \"Hello World\"\n",
+        "x[2:5]"
+      ],
+      "metadata": {
+        "id": "r0yvA6N0Le3Z",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "outputId": "21fa3df1-9fea-4a43-b257-0e6595dcb29a"
+      },
+      "execution_count": 101,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'LLO'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 101
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "txt = \"Hello world\"\n",
+        "\n",
+        "x = txt.upper()\n",
+        "\n",
+        "print(x)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "dbrdB65kiXDs",
+        "outputId": "323c6202-c70d-44eb-b09a-9a1a56aecbc8"
+      },
+      "execution_count": 96,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "HELLO WORLD\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "txt = \"Hello world\"\n",
+        "\n",
+        "print(txt.lower())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Ac8vYdB_id1b",
+        "outputId": "0571b019-94a6-4dbf-81c8-99057954bf6d"
+      },
+      "execution_count": 103,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hello world\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "txt=\" hello world \"\n",
+        "x=txt.strip()\n",
+        "print(txt)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cabCBor0L03O",
+        "outputId": "3b97b979-8ea8-49ae-8790-05234d14c632"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            " hello world \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "txt =\"hello world\"\n",
+        "txt= txt.replace('h','j')\n",
+        "print (txt)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "c66u3ZCTMdFU",
+        "outputId": "e9366755-b5e9-4aa2-dcc7-595c02c44405"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "jello world\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "age = 36\n",
+        "txt =f\"My name is john, and I am 19 years old\"\n",
+        "print (txt)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6ZvMOPUdNDA5",
+        "outputId": "bc5d8897-d24a-4e1c-e793-1ae53aa8612a"
+      },
+      "execution_count": 93,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "My name is john, and I am 19 years old\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(10>9)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zNHMQBs_NVBL",
+        "outputId": "2272ae3c-0776-4db4-b3ec-d723fc73a7e4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(10 == 9)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8aYuI9SfNxuZ",
+        "outputId": "26a97797-4ea0-482a-e5fd-3f3389dad06c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "False\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(10 <9 )"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fCmk6ClKN0pT",
+        "outputId": "d0e51476-f13b-40f7-ba41-b0322220dbc7"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "False\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Twinkle, twinkle, little star, \\n\\tHow I wonder what you are! \\n\\t\\tUp above the world so high, \\n\\t\\tLike a diamond in the sky. \\nTwinkle, twinkle, little star, \\n\\tHow I wonder what you are!\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CmLAjV8ifMJP",
+        "outputId": "ff344a8e-4fdf-41e9-cf1e-cb6c049a1b04"
+      },
+      "execution_count": 81,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Twinkle, twinkle, little star, \n",
+            "\tHow I wonder what you are! \n",
+            "\t\tUp above the world so high, \n",
+            "\t\tLike a diamond in the sky. \n",
+            "Twinkle, twinkle, little star, \n",
+            "\tHow I wonder what you are!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "my_list = [\"ali\", \"mostafa\"]\n",
+        "my_list.reverse()\n",
+        "print(str(my_list))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FE7AIKi5OHe8",
+        "outputId": "19dd7a1d-d459-4c8c-cee4-55215a86712d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['mostafa', 'ali']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "r = 1.1\n",
+        "area = 3.14 * r ** 2\n",
+        "print(\"The area of the circle\" \" is: \" + str(area))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "bHUAz8OcQHXS",
+        "outputId": "36919873-ed8b-4f0f-8d5b-be08210bc93b"
+      },
+      "execution_count": 83,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The area of the circle is: 3.7994000000000008\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = input(\"Input the Filename: \")\n",
+        "y = x.split(\".\")\n",
+        "print(\"The extension of the file is : \" + repr(y[-1]))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YJ7pFFDZQwPt",
+        "outputId": "29a2a5fc-4b16-44ca-fd48-6ec3ff1a28be"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Input the Filename: abc. java\n",
+            "The extension of the file is : 'java'\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "s = \"amit\"\n",
+        "y = tuple(s)\n",
+        "x = list(s)\n",
+        "print(x)\n",
+        "print(y)\n",
+        "x = s.replace('t','a')\n",
+        "print(x)\n",
+        "x= list(x)\n",
+        "print(x)\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "MXQmaRusRory",
+        "outputId": "b1951dd5-8532-40db-ee31-9f5420c983c9"
+      },
+      "execution_count": 85,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['a', 'm', 'i', 't']\n",
+            "('a', 'm', 'i', 't')\n",
+            "amia\n",
+            "['a', 'm', 'i', 'a']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "color = [\"Red\",\"Green\",\"White\" ,\"Black\"]\n",
+        "print(color[0],color[-1])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tBLG080ETU-F",
+        "outputId": "1f437115-f479-4083-b9ef-61b9e2e18abd"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Red Black\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"\"\"\n",
+        "a string that you \"don't\" have to escape\n",
+        "This\n",
+        "is a  ....... multi-line\n",
+        "heredoc string --------> example\n",
+        "\"\"\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sh7o6x9GgiXp",
+        "outputId": "fc392075-7aa0-45f0-ff8f-4f2c80315dc9"
+      },
+      "execution_count": 86,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\n",
+            "a string that you \"don't\" have to escape\n",
+            "This\n",
+            "is a  ....... multi-line\n",
+            "heredoc string --------> example\n",
+            "\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "txt = \"https://www.google.com\"\n",
+        "\n",
+        "x = txt.startswith(\"https\")\n",
+        "\n",
+        "print(x)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Vq-kKyokTVji",
+        "outputId": "1790ec01-042d-42ff-efcb-00294cbe27d3"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "txt = \"amit4536@gmail.com\"\n",
+        "\n",
+        "x = txt.endswith(\".com\")\n",
+        "\n",
+        "print(x)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "fa9d419b-acb9-439e-98bb-e3d218a4d823",
+        "id": "01a4yzqYXQBo"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "Yo51rIf2XNOg"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
